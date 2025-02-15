@@ -8,5 +8,7 @@ copy requirement.txt requirement.txt
 # any other utilities
 run pip install -r requirement.txt
 
+expose 5000
+
 # how to run the application
 CMD ["python", "app.py"]
